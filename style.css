@@ -1,0 +1,34 @@
+h1 {
+    color: white;
+}
+
+input {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+.divisao {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 700px;
+    height: 400px;
+    position: relative;
+    margin: 70px auto;
+    background: white;
+}
+
+form {
+    position: relative;
+    margin: 5% 30%;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.e {
+    margin: 0 0 10px 0;
+    padding: 5px 65px;
+}
+
+body {
+    background: url(caseItem3.jpg);
+}
