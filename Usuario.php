@@ -16,8 +16,13 @@ class Usuario
                 $_SESSION['login'] = $usario;
                 header('Location: index.php');
             } else {
-                echo 'Login ou senha inválido';
+                echo '<h1 style="text-align: center;">Login ou senha inválido</h1>';
             }
         }
     }
+
+    /*public function cadastrar($banco_de_cadastro, $login_a_cadastrar, $senha_a_cadastrar) {
+        $banco_de_cadastro[$login_a_cadastrar] = $senha_a_cadastrar;
+        return $banco_de_cadastro;
+    }*/
 }

@@ -40,7 +40,7 @@
 
             if (isset($_GET['logaut'])) {
                 unset($_SESSION['login']);
-                session_destroy();
+                //session_destroy();
                 header('Location: index.php');
             }
             /*if (isset($_GET['cadastro'])) {

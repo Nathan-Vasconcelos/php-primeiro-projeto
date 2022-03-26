@@ -24,11 +24,27 @@ form {
     padding: 10px 20px;
 }
 
+legend {
+    padding: 0 0 15px 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+
 .e {
     margin: 0 0 10px 0;
     padding: 5px 65px;
+    cursor: pointer;
 }
 
 body {
     background: url(caseItem3.jpg);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    margin-top: 20px;
 }

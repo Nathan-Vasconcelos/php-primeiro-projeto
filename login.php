@@ -11,12 +11,13 @@
     <div class="divisao">   
         <form method="post">
             <label for="login">Login</label>
-            <input type="text" name='login' id='login'>
+            <input type="text" name='login' id='login' required>
 
             <label for="senha">Senha</label>
-            <input type="password" name='senha' id='senha'>
+            <input type="password" name='senha' id='senha' required>
             <input class="e" type="submit" name='acao' value='Entrar'>
+        </form>
     </div>  
-</form>
+
 </body>
 </html>
